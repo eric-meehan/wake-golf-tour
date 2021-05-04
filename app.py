@@ -7,7 +7,7 @@ from pkg_resources import Requirement
 
 pkg_name = 'eomwgtsite'
 
-site_path = working_set.find(Requirement.parse(pkg_name)).location + '\\WGT_Website\\'
+site_path = working_set.find(Requirement.parse(pkg_name)).location + "/" + '\\WGT_Website\\'
 
 command = 'python3 ' + site_path + '/manage.py runserver'
 os.system(command)
