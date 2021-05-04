@@ -18,5 +18,5 @@ setup (name='eomwgtsite',
         'golfer_polls/static/golfer_polls/*' ,
         'tournament/templates/tournament/*', 'tournament/static/tournament/*'],
     },
-    scripts = ['runWGT.py'],
+    scripts = ['app.py'],
 )
