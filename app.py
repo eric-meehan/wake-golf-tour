@@ -12,6 +12,6 @@ site_path = working_set.find(Requirement.parse(pkg_name)).location + '\\WGT_Webs
 command = 'start python ' + site_path _ 'manage.py runserver'
 os.system(command)
 
-url = 'http://localhost:8000/'
+#url = 'http://localhost:8000/'
 
 webbrowser.open(url)
