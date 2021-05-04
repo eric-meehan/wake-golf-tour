@@ -11,7 +11,7 @@ site_path = working_set.find(Requirement.parse(pkg_name)).location + "/" + '\\WG
 
 command = 'python3 ' + site_path + '/manage.py runserver'
 os.system(command)
-command = 'source ' + site_path + '/env/bin/activate'
+command = 'source ' + working_set.find(Requirement.parse(pkg_name)).location + '/env/bin/activate'
 os.system(command)
 
 #url = 'http://localhost:8000/'
