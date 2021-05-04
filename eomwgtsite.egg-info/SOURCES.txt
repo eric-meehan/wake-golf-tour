@@ -1,5 +1,5 @@
 README.txt
-runWGT.py
+app.py
 setup.py
 WGT_Website/WakeGolfTour.db
 WGT_Website/__init__.py
